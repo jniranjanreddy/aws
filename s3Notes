@@ -88,3 +88,22 @@ Objects is encrypted server side
 AWS-256 encryption side
 header :- x-amz-server-side-encryption "AES256"
 
+===================================
+Overview of new S3 Storage classes.
+===================================
+1. Standard
+2. Intelligent-Tierning
+3. Standard-IA  # Infrequent Access
+4. One-Zone-IA
+5. Glacier
+6. Glacier Deep Archive
+7. Reduced Redundancy
+
+
+
+
+
+
+
+
+
