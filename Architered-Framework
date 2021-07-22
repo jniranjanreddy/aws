@@ -28,3 +28,23 @@ Security:
      5. Protect data in transit and at rest
      6. Keep people away from Data
      7. Prepare for security Events.
+
+-----------------------
+Reliability: 
+-----------------------
+  Design Principals:
+    1. Test Recovery Procedure
+    2. Automatically recover from Failure
+    3. Scale Horizontally to increase aggregate system availability
+    4. Stop Guessing Capacity.
+    5. Manage change in Automation
+    
+-----------------------
+Performance Efficiency: 
+-----------------------
+  Design Principals:  
+       1. Democratize advanced technologies
+       2. Go global in minutes
+       3. Use serverless architectures
+       4. Experient more often
+       5. Mechanical Sympathy.
