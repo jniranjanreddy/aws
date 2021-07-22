@@ -1,0 +1,30 @@
+Thw Well-Architected framework with Five pillars.
+
+1. Operational Excellence
+2. Security
+3. Relability
+4. Performance Efficiency
+5. Cost Optimiztion
+
+-----------------------
+Operational Excellence: 
+-----------------------   
+  Design Principals
+     1. Perform Operation as code.
+     2. Annotated Documentation
+     3. Make Frequent, Small Reversible Changes.
+     4. Refine Operations Procedure Frequently
+     5. Anticipate Failure
+     6. Learn from operaton Falure.
+     
+-----------------------
+Security: 
+-----------------------
+  Design Principals:
+     1. Implement a Strong identity Foundation
+     2. Enable Traceability
+     3. Aplly Security at all Levels
+     4. Automate Security best Practices
+     5. Protect data in transit and at rest
+     6. Keep people away from Data
+     7. Prepare for security Events.
