@@ -20,6 +20,7 @@ Download the Cloudwatch Unified Agent. Find the right agent link for your OS by 
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm
 Install the Cloudwatch Agent
 sudo rpm -U ./amazon-cloudwatch-agent.rpm
+or sudo yum install amazon-cloudwatch-agent
 
 
 Configure the Cloudwatch agent with the help of a setup wizard:
