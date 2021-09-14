@@ -1,0 +1,5 @@
+AWS Shield is a managed Distributed Denial of Service (DDoS) service that safeguards the workloads running on AWS Against DDos Attacks.
+
+There are twi tiers of AWS Shields
+   a. Shield Standard
+   b. Shield Advanced
