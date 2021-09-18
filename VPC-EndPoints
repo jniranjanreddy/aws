@@ -1,1 +1,8 @@
 
+There are three types of VPC end points
+  1. Gateway endpoint
+  2. Interface Endpoint
+  3. Gateway Load Balancer Endpoints
+  
+
+
