@@ -14,11 +14,14 @@
 #6.Copy server and client certificates and keys to one directory
     mkdir ~/demo
     cp pki/ca.crt ~/demo/
-    cp pki /issued/server.crt ~/demo/
-    cp pki / server.key ~/demo/
-    cp pki /issued/client1.domain.tld.crt ~/demo/
-    cp pki /private/client1.domain.tld.key ~/demo/
+    cp pki/issued/server.crt ~/demo/
+    cp pki/private/server.key ~/demo/
+    cp pki/issued/client1.domain.tld.crt ~/demo/
+    cp pki/private/client1.domain.tld.key ~/demo/
     cd ~/demo
 #7. Upload the certificate and keys to ACM
-    aws acm import-certificate --certificate fileb://server.crt --private key fileb://server.key --certificate-chain fileb://ca.crt region ap-south-1
-    aws acm import-certificate --certificate fileb://client1.domain.tld.crt --private key fileb://client1.domain.tld.key --certificate-chain fileb://ca.crt --region ap-south-1
+    aws acm import-certificate --certificate fileb://server.crt --private-key fileb://server.key --certificate-chain fileb://ca.crt --region ap-south-1
+    aws acm import-certificate --certificate fileb://client1.domain.tld.crt --private-key fileb://client1.domain.tld.key --certificate-chain fileb://ca.crt --region ap-south-1
+
+#Output
+
