@@ -2,7 +2,7 @@
 
 Elasticity - Allow to scale service based on demand, Can make AWS workload cost effective based on Dynamic User Demand.
 
-On-Demand - Allow customers to launch servers and services whenever they intend to.
+On-Demand - ```Allow customers to launch servers and services whenever they intend to.```
 
 High - Availability - Architectural Design to accommodate failure of any single componenet.
 
