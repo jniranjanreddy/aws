@@ -1,0 +1,42 @@
+what is IAM understanding with real time scenario.
+
+Point 1
+ - Imagine you joined a company and you would get Access card and subject to access spefic rooms
+ - you wont access to HR room officials
+ - you wont access to Finanace team 
+  ..etc
+ 
+ In short IT team will give you access according to the job -role
+  when you get promoted you will be give more access
+
+Point 2
+Imagine your Another team member who got access they have a different access than yours.
+
+
+IAM:- Roles
+
+IAM Roles are used to granting the application access to AWS Services without using permanent credentials.
+IAM Role is one of the safer ways to give permission to your EC2 instances.
+We can attach roles to an EC2 instance, and that allows us to give permission to EC2 instance to use other AWS Services eg: S3 buckets
+####################################################################
+
+
+Attaching Role is one of the secure method to interact with AWS resources.
+
+###Tip to Expose the secret key and Access Key.
+export AWS_METADATA_URL=http://169.254.169.254/latest/meta-data/iam/security-credentials/<RoleNmae>
+
+env | grep AWS_METADATA_URL
+AWS_METADATA_URL=http://169.254.169.254/latest/meta-data/iam/security-credentials/<RoleNmae>
+[root@ip-10-80-1-123 terraform]# curl http://169.254.169.254/latest/meta-data/iam/security-credentials/<Rolename>
+{
+  "Code" : "Success",
+  "LastUpdated" : "2021-01-22T14:25:59Z",
+  "Type" : "AWS-HMAC",
+  "AccessKeyId" : "ASIAWTKJH4XXXXXXXXX",
+  "SecretAccessKey" : "XXXXXXXXXXXXJ86QFFOFBG2",
+  "Token" : "IQoJb3JpZ2luX2VjEOf///////XXXXXXXXXXXXXXXXXXXXAIgPqbBa5aUs2y4NW0oh7geK0+vz3bmGwKdT/Qw+M/d874qvQMIwP//////////ARACGgw0NTM4MDk1MzA2ODgiDHqoVdrrtxxxxxxxxxxxxxg64xDDTAzNWrqC7Jt6SXCu8TXrW9eGiyuE5DPGhkbk+RZgKNfvxasAi9QYMUFuZJmJU1MudNLwCk7R0Qs3cEELIQgVpPu3isEQv7BMeiNiMl5Zl57LOc0yMpOrkUONMmXNifc3mxfHjkd9PQ0oWKzpxCYVQYb/QszJx84QME8AIEwzANLkwqh6CzBtQlPA==",
+  "Expiration" : "2021-01-22T21:00:36Z"
+  }
+  
+  ###########################################################################
