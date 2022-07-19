@@ -13,6 +13,14 @@ Point 2
 Imagine your Another team member who got access they have a different access than yours.
 
 
+
+How many types MFA - Multifactor Authentications.
+1. Google Authenticator
+2. Authy - multi device
+3. Yubikey
+4. Gemalto - 3rd party
+5. SurePass ID
+
 IAM:- Roles
 
 IAM Roles are used to granting the application access to AWS Services without using permanent credentials.
