@@ -21,6 +21,13 @@ How many types MFA - Multifactor Authentications.
 4. Gemalto - 3rd party
 5. SurePass ID
 
+
+IAM Reports:
+IAM Credentials Report - Account level
+IAM Access Advisor
+
+
+
 IAM:- Roles
 
 IAM Roles are used to granting the application access to AWS Services without using permanent credentials.
