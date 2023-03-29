@@ -1,6 +1,12 @@
 ### What is API-Gateway.
 ### source: https://www.youtube.com/watch?v=UVA5Dw12aVI&list=PL5KTLzN85O4ISx9guOjbynlhCxB87xmUq
 ```
+Endpoint Types: 
+Regional       :  API's are deployed in the Current Region
+Edge Optimized :  API's deployed to the Cloudfront
+Private        :  API's are accessable only from VPC
+
+
 Amazon API Gateway deployment
 -----------------------------
 
