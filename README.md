@@ -12,29 +12,6 @@
 | AWS Parallel Cluster | Azure Cycle Cloud | Create, manage, operate, and optimize HPC and large compute clusters of any scale. |
 | ---------------------- | ---------------------- |----------------------|
 
-| Use bind mounts to give | Use volumes to store container |----------------------|
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
-|  |  ||
 
 
 
