@@ -1,7 +1,9 @@
 ## AWS and Azure Resources
 ### Marketplace
 | AWS                     | Azure                          | Description          |
-| AWS Marketplace         | AWS Marketplace                | Third party packages              |
+| ---------------------- | ---------------------- |----------------------|
+
+| AWS Marketplace         | AWS Marketplace                | Third party packages |
 | ---------------------- | ---------------------- |----------------------|
 
 ## AI and machine learning
