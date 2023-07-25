@@ -3,8 +3,8 @@
 |        AWS             |        Azure           |      Description     |
 | ---------------------- | ---------------------- |----------------------|
 
-| AWS Marketplace         | AWS Marketplace       | Third party packages |
-| ---------------------- | ---------------------- |----------------------|
+| AWS Marketplace         | AWS Marketplace        | Third party packages |
+| ----------------------  | ---------------------- |----------------------|
 
 ## Virtual Machines and Servers
 | EC2 instance           | Azure Virtial Machines | AWS and Azure on-demand VMs bill per seconds used |
@@ -16,4 +16,7 @@
 | AWS Parallel Cluster | Azure Cycle Cloud | Create, manage, operate, and optimize HPC and large compute clusters of any scale. |
 | ---------------------- | ---------------------- | ---------------------- |
 
+## Autoscaling
+| AWS Auto Scaling | Virtual Machine Scale Sets App Service Autoscale | In Azure, virtual machine scale sets let you deploy and manage identical sets of VMs |
+| ---------------------- | ---------------------- | ---------------------- |
 
