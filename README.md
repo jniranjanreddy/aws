@@ -1,6 +1,6 @@
 ## AWS and Azure Resources
 ### Marketplace
-| AWS                     | Azure                          | Description          |
+|        AWS             |        Azure           |      Description     |
 | ---------------------- | ---------------------- |----------------------|
 
 | AWS Marketplace         | AWS Marketplace                | Third party packages |
