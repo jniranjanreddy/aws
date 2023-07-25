@@ -1,9 +1,10 @@
 ## AWS and Azure Resources
+
 ### Marketplace
 |        AWS             |        Azure           |      Description     |
 | ---------------------- | ---------------------- |----------------------|
 
-| AWS Marketplace         | AWS Marketplace        | Third party packages |
+| AWS Marketplace         | Azure Marketplace        | Third party packages |
 | ----------------------  | ---------------------- |----------------------|
 
 ## Virtual Machines and Servers
@@ -19,4 +20,6 @@
 ## Autoscaling
 | AWS Auto Scaling | Virtual Machine Scale Sets App Service Autoscale | n Azure, virtual machine scale sets let you deploy and manage identical sets of VMs.  |
 | ---------------------- | ---------------------- | ---------------------- |
+
+## Storage
 
