@@ -3,5 +3,11 @@
 ## AWS and Azure Resources
 | AWS                     | Azure                          | Description          |
 | ------------------------|--------------------------------|----------------------|
-| Use bind mounts to give your container access to your source code.  | Use volumes to store container data. |      |
+| Use bind mounts to give | Use volumes to store container |----------------------|
+| Use bind mounts to give | Use volumes to store container |----------------------|
+| Use bind mounts to give | Use volumes to store container |----------------------|
+| Use bind mounts to give | Use volumes to store container |----------------------|
+|  |  ||
+
+
 
