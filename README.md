@@ -7,7 +7,7 @@
 | ---------------------- | ---------------------- |----------------------|
 
 ## Virtual Machines and Servers
-| EC2 instance  | Azure Virtial Machines | AWS and Azure on-demand VMs bill per seconds used |
+| EC2 instance           | Azure Virtial Machines | AWS and Azure on-demand VMs bill per seconds used |
 | ---------------------- | ---------------------- | ---------------------- |
 
 | VMWare Cloud on AWS    | Azure VMWare Solution  | AWS and Azure solutions let you move VMware vSphere-based |
